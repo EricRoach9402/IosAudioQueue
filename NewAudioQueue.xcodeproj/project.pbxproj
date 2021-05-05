@@ -13,6 +13,7 @@
 		29EF2BC3263CFFA300EEF13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EF2BC1263CFFA300EEF13F /* Main.storyboard */; };
 		29EF2BC5263CFFA300EEF13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EF2BC4263CFFA300EEF13F /* Assets.xcassets */; };
 		29EF2BC8263CFFA300EEF13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EF2BC6263CFFA300EEF13F /* LaunchScreen.storyboard */; };
+		29EF2BD1263D003600EEF13F /* NewAudioQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF2BD0263D003600EEF13F /* NewAudioQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		29EF2BC4263CFFA300EEF13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29EF2BC7263CFFA300EEF13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29EF2BC9263CFFA300EEF13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EF2BD0263D003600EEF13F /* NewAudioQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAudioQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		29EF2BBA263CFFA300EEF13F /* NewAudioQueue */ = {
 			isa = PBXGroup;
 			children = (
+				29EF2BCF263D002300EEF13F /* NewAudioQueue */,
 				29EF2BBB263CFFA300EEF13F /* AppDelegate.swift */,
 				29EF2BBD263CFFA300EEF13F /* SceneDelegate.swift */,
 				29EF2BBF263CFFA300EEF13F /* ViewController.swift */,
@@ -63,6 +66,14 @@
 				29EF2BC4263CFFA300EEF13F /* Assets.xcassets */,
 				29EF2BC6263CFFA300EEF13F /* LaunchScreen.storyboard */,
 				29EF2BC9263CFFA300EEF13F /* Info.plist */,
+			);
+			path = NewAudioQueue;
+			sourceTree = "<group>";
+		};
+		29EF2BCF263D002300EEF13F /* NewAudioQueue */ = {
+			isa = PBXGroup;
+			children = (
+				29EF2BD0263D003600EEF13F /* NewAudioQueue.swift */,
 			);
 			path = NewAudioQueue;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 				29EF2BC0263CFFA300EEF13F /* ViewController.swift in Sources */,
 				29EF2BBC263CFFA300EEF13F /* AppDelegate.swift in Sources */,
 				29EF2BBE263CFFA300EEF13F /* SceneDelegate.swift in Sources */,
+				29EF2BD1263D003600EEF13F /* NewAudioQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
